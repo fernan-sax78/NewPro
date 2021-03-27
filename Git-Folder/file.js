@@ -1,1 +1,4 @@
-console.log('ciao di nuovo')
+
+function myFunction() {
+alert("Hi!, how is going on?");
+}
