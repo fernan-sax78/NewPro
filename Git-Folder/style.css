@@ -384,7 +384,7 @@ width: 940px;}
 }
 
 
-@media (min-width : 320px) and (max-width: 1024px) {
+@media (min-width : 320px) and (max-width: 918px) {
 body{margin: 0;
 overflow: hidden;
 padding: 0;
