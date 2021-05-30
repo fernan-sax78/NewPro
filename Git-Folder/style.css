@@ -25,7 +25,7 @@ li{list-style: none;}
 
 .contain ul li.selected a{background: black; color: #a3a3a3;}
 
-.logo{margin-right: 17px;}
+.logo{margin-right: 20px;}
 .contain ul{
 float: left;
 list-style: none;
@@ -384,28 +384,17 @@ width: 940px;}
 }
 
 
-@media (min-width : 320px) and (max-width: 918px) {
-body{margin: 0;
-overflow: hidden;
-padding: 0;
-position: relative;
-width: auto;}
-.contain{min-height: 120px;
-width: 100%;}
-.contain a{
-  display: block;
-  float: left;
-  height: 60px;
-  margin: 55px 0 0;
-  padding: 0;
-  width: 79%;
-}
-img{max-width: 100%;}
-.contain, .logo{margin-left: 5px;}
-.contain ul{display: none;}
-
-
-
+@media  (max-width: 959px) {
+body{height: 100vh;width: 100%;background-size: cover;}
+  header div {
+      margin: 0 auto;
+      max-width: none;
+      min-height: 118px;
+      overflow: hidden;
+      width: 95%;
+  }
+header div ul#navigation{display: none;}
+.logo{margin: 55px 0 0;}
 
 
   .contain span#mobile-menu{background: transparent url('img/mobile-menu.png') no-repeat;
@@ -419,14 +408,24 @@ img{max-width: 100%;}
   top: 55px;
   width: 50px;
   z-index: 999;}
+.corpo h1{z-index: 5;}
+.corpo h2{z-index: 5;}
+.corpo h3{margin-top: 150px;}
+a.button{margin:0 180px 0 0;}
+#home, .corpo {height: 100vh; margin: 0 auto;}
+.corpo  ul{display: block;text-align: center;height: 850px;margin: 0 auto;background: #000;}
+.corpo ul li a img{ width: 250px; height: 150px;margin: 30px;}
+.corpo div.footer{margin: 0 auto;
+max-width: none;
+overflow: hidden;
+padding: 10% 0;
+position: relative;
+width: 95%;}
+.body{margin: 542px auto;padding: 30px;}
+.body div h1{text-align: center;}
 
-
-
-
-
-
-
-
+.footer div{margin-top: -550px;}
+.footer div ul{display: block;}
 }
 
 
